@@ -1,0 +1,4 @@
+// FOR = estrutura de repetição.
+
+
+
