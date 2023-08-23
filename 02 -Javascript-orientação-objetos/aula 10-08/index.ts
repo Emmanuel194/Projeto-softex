@@ -17,6 +17,11 @@ function menu (){
   opcao = parseInt(prompt ("Digite um número acima."));
 
   }while(opcao!=5);
+
+}
+
+switch(parametros) {
+  case 'calculadora': import 
 }
 
 
