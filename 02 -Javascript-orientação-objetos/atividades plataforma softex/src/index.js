@@ -1,10 +1,12 @@
 const express = require('express');
 const app = express();
-var porta = 3000;
 
-app.listen(porta);
 
-app.get('projects', (req, res) => {
+
+
+app.get('/projeto', (req, res) => {
   console.log('ok server');
-  return response.send('hellou word');
+  return res.status(200).json({mensagem:"seu codigo chegou aqui"})
 });
+
+app.listen(3001,  () =>( "server on"));
